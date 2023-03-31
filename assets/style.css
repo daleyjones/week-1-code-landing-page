@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1px;
+}
+
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f5e4dd;
+  box-shadow: 0 0 10px rgba(139, 3, 3, 0.1);
+}
+
+
+header {
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  background-color: #577b65;
+  color: #ffffff;
+}
+
+header nav ul {
+  display: flex;
+
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: #fdfdfd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+main h1 {
+  text-align: right;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+main figure {
+  margin: 40px 0;
+  text-align: center;
+}
+
+main figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+main figure figcaption {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+section.contact {
+  margin-top: 40px;
+}
+
+section.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+section.contact button {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+section#contact button:hover {
+  background-color: #d00505;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color:#577b65;
+  color: #fff;
+}

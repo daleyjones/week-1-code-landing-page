@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="text-right">
+        <nav>
+          <ul>
+            <li><a href="https://Github.com/">Github</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h1 class="text-center">My New Website</h1>
+        </header>
+
+        <figure>
+          <img
+            src="./assets/images/whats-coming-next.png"
+            alt="Graphic with coming soon text"
+          />
+          <figcaption class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum
+            et ea commodi iusto vero atque, sequi expedita? Alias animi vel
+            vitae corrupti enim ipsa cum et similique magnam. Non.
+          </figcaption>
+        </figure>
+
+        <section id="contact">
+          <header>
+            <h2 class="text-center">Contact Me</h2>
+          </header>
+
+          <form>
+            <fieldset>
+              <legend>Contact Form</legend>
+
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+
+              <div>
+                <button type="submit">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2023 Daley Jones</p>
+    </footer>
+  </body>
+</html>
